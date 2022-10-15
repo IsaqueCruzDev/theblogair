@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <title>BlogAir - Sua Viajem!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,900;1,600&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    
+    <!--Começo Cabecalho-->
+    <input id="close-menu" class="close-menu" type="checkbox" role="button" aria-label="close menu">
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
+    <header class="header menu">
+    <div class="cabecalho main-content">
+      <h1 class="display-1 titulo-principal">
+        <a href=""><span class="text-iniciais-titulo">B</span><span class="text-letras-titulo">log</span><span class="text-iniciais-titulo">A</span><span class="text-letras-titulo">ir</span>
+        </a>
+      </h1>
+
+        <nav class="nav-da-ul">
+          <ul class="navegacao-cabecalho">
+          <li><a href="" class="link-cabecalho-1 imigracao">Imigração</a></li>
+          <li><a href="" class="link-cabecalho-1 noticias">Notícias</a></li>
+          <li><a href="" class="link-cabecalho-1 passagens">Passagens</a></li>
+          <li><a href="" class="link-cabecalho cadastro-cabecalho">Cadastre-se</a></li>
+          <li><a href="" class="login">Login</a></li>
+          <input class="input-pesquisa" type="text" placeholder="Pesquise Aqui">
+          <button class="botao-pesquisa"> <img src="../assets/img/icone lupa.png" alt="Botão de pesquisa" width="30px">
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+    <!--Fim Cabecalho-->
+
+    <section class="home-inicial section">
+      <div class="home main-content">
+        <div class="grid-2">
+          <div>
+            <h1 class="home-titulo">Blog<span class="barra">/</span>Air</h1>
+            <p class="text-home">Somos o <strong>blog favorito</strong> dos amantes de viagem! Ajudamos você a encontrar os <strong>melhores preços de passagens</strong>  para viagens no mundo todo! Além disso, te mantemos informado sobre as notícias recorrentes ao redor do mundo por meio de nossas notícias diárias.
+            Quer ter acesso a tudo isso e mais? Faça já o seu <a href="">Cadastro clicando aqui!</a>
+            </p>
+          </div>
+
+          <div class="worldmap">
+            <img src="../assets/img/mapamundi.svg" alt="imagem do mapa">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Fim Home -->
+    
+    <section class="section2 cadastro">
+      <div class="pag-cadastro main-content">
+        <h2>Cadastre-se</h2>
+        <form id="formulario-cadastro" action="/">
+          <fieldset class="form-grid">
+          <legend>Cadastre-se JÁ!</legend>
+
+            <div class="form-group">
+              <label class="label-cadastro" for="nome">Nome</label>
+              <input id="nome" type="text" placeholder="Nome" required>
+            </div>
+
+            <div class="form-group">
+              <label class="label-cadastro" for="sobrenome">Sobrenome</label>
+              <input id="sobrenome" type="text" placeholder="Sobrenome" required>
+            </div>
+
+            <div class="form-group">
+              <label class="label-cadastro" for="email">E-mail</label>
+              <input id="email" type="text" placeholder="E-mail" required>
+            </div>
+
+            <div class="form-group">
+              <label class="label-cadastro" for="senha-cadastro">Senha</label>
+              <input id="senha-cadastro" type="password" placeholder="Senha" required>
+            </div>
+
+            <div class="form-group">
+              <label class="label-cadastro" for="idade">Idade</label>
+              <input id="idade" type="text" placeholder="Idade" required>
+            </div>
+
+            <div class="form-group">
+              <label class="label-cadastro" for="estado">Estado</label>
+              <input id="estado" type="text" placeholder="Estado" required>
+            </div>
+
+            <div class="form-group full-width">
+              <button type="">Finalizar Cadastro</button>
+              </div>
+          </fieldset>
+        </form>
+
+        <!-- Login -->
+
+        <div class="pag-login">
+        <h2 class="titulo-login">Login</h2>
+        <form id="formulario-login" action="/">
+          <fieldset class="form-grid">
+
+            <div class="form-group">
+              <label class="label-cadastro" for="email">E-mail</label>
+              <input id="email" type="text" placeholder="E-mail" required>
+            </div>
+
+            <div class="form-group">
+              <label class="label-cadastro" for="senha-login">Senha</label>
+              <input id="senha-login" type="password" placeholder="Senha" required>
+            </div>
+
+            <div class="form-group full-width">
+              <button type="">Logar</button>
+            </div>
+          </fieldset>
+          </form>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Fim Página de Cadastro -->
+
+    <!-- <section class="section">
+      <div class="main-content conteudo-inicial ">
+          <h2 class="titulo-conteudo-inicial">Últimas Notícias</h2>
+        <div class="grid-3 grids-conteudo-inicial">
+      <div class="noticia">
+        <img src="./assets/img/canada3.jfif" alt="" class="imagem-notícia">
+        <h3 class="titulo-noticia">Canadá derruba medidas sanitárias contra covid para visitantes estrangeiros</h3>
+        <p class="texto-noticia">O governo canadense anunciou, nesta segunda-feira (26), que porá fim, a partir de sábado (1º), a todas as restrições sanitárias nas fronteiras implementadas para combater a disseminação da covid-19, incluindo os requisitos de vacinação para entrar no país.</p>
+        <a class="link-noticia" href="https://www.uol.com.br/nossa/noticias/afp/2022/09/26/canada-anuncia-fim-das-medidas-sanitarias-anticovid-na-fronteira.htm">Leia Mais</a>
+      </div>
+
+      <div class="noticia">
+        <img src="./assets/img/canada2.jfif" alt="" class="imagem-notícia">
+        <h3 class="titulo-noticia">Tempestade Fiona atinge costa leste do Canadá e deixa 500 mil casas sem luz.</h3>
+        <p class="texto-noticia">A potente tempestade Fiona atingiu no sábado de 24/09/22, a costa atlântica do Canadá, deixando mais de 500.000 casas sem luz e causando fortes chuvas e ventos .Além dos ventos, ondas de mais de 12 metros também atingiram as praias.</p>
+        <a class="link-noticia" href="https://g1.globo.com/mundo/noticia/2022/09/24/tempestade-fiona-atinge-costa-leste-do-canada-e-deixa-500-mil-casas-sem-luz.ghtml">Leia Mais</a>
+      </div>
+
+      <div class="noticia">
+        <img src="./assets/img/canada4.jfif" alt="" class="imagem-notícia">
+        <h3 class="titulo-noticia" >Canadá proíbe entrada de líderes da Guarda Revolucionária Islâmica do Irã.</h3>
+        <p class="texto-noticia">O Canadá disse na sexta-feira que proibirá a alta liderança da Guarda Revolucionária Islâmica do Irã (IRGC) de entrar no país e prometeu sanções mais direcionadas sobre o tratamento de mulheres no Irã e a derrubada de um avião civil em 2020.</p>
+        <a class="link-noticia" href="https://www.foxnews.com/world/canada-ban-leaders-irans-islamic-revolutionary-guards-entry">Leia Mais</a>
+      </div>
+
+        </div>
+      </div>
+    </section> -->
+
+    <script src="./js/index.js"></script>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <!-- <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+      crossorigin="anonymous"
+    ></script> -->
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
